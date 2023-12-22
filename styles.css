@@ -1,4 +1,11 @@
 html, body {
     background: rgb(255, 247, 207);
     height: 100%;
-  }
+}
+body {
+  margin: 0;
+
+}
+canvas {
+  display: block; /* Remove any default spacing */
+}
