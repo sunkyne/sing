@@ -1,7 +1,7 @@
 var config = {
     width: window.innerWidth,
     height: window.innerHeight,
-    backgroundColor: 0x9E7682,
+    backgroundColor: 0x605770,
     scene: [Scene]
 }
 
