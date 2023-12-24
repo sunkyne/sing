@@ -1,10 +1,14 @@
-html, body {
-    background: rgb(255, 247, 207);
-    height: 100%;
+:root {
+  --primary-color: #4D4861;
+  --secondary-color: #605770;
+  --accent-color: #9E7682;
+  --background-color: #EDCB96;
 }
-body {
-  margin: 0;
 
+html, body {
+    background: var(--accent-color);
+    height: 100%;
+    margin: 0;
 }
 canvas {
   display: block; /* Remove any default spacing */
